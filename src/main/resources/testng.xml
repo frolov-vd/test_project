@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test Suite" parallel="methods">
+    <test name="Tests">
+        <classes>
+            <class name="headhunter.tests.ResumesSearchPageTest"/>
+            <class name="headhunter.tests.VacanciesSearchPageTest"/>
+        </classes>
+    </test>
+</suite>
